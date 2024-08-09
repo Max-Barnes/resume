@@ -1,14 +1,18 @@
-import TestButton from "./testbutton";
+import Link from "next/link";
 
 export default function Landing() {
   return (
     <main>
-      <div class="carousel">
-        <p>About</p>
-        <p>Portfolio</p>
-        <p>Funny Video</p>
-        <p>Contact</p>
-        <TestButton name="max" />
+      <div class="navbar">
+        <div>
+          <Link href="/about">About</Link>
+        </div>
+        <div>
+          <Link href="/portfolio">Portfolio</Link>
+        </div>
+        <div>
+          <Link href="/Contact">Contact</Link>
+        </div>
       </div>
     </main>
   );
