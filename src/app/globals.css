@@ -14,27 +14,24 @@ main {
 /* Header */
 .section-header {
     min-height: 490px;
-    height: 80vh;
+    height: 40vh;
     max-height: 80%;
     width: 100%;
-    background-color:#151515;
+    background: linear-gradient(180deg, hsla(30, 16%, 87%, 1) 0%, hsla(0, 0%, 8%, 1) 85%);
     display: flex;
     padding-top: 105px;
-    padding-bottom: 105px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
 .section-header > *{
-    font-size: 4.5rem;
+    font-size: 4rem;
     color:#E4DFDA;
     max-width: 75%;
     min-width: 75%;
-    height: 25%;
+    height: 30%;
     text-align: center;
 }
-
 #fancy {
     overflow: hidden;
     text-align: center;
