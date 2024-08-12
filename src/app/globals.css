@@ -1,18 +1,20 @@
 * {
-    color: #E4DFDA;
+    color: var(--color1);
     margin: 0;
     --accent: #2D7DD2;
+    --color1: #ffffff;
+    --color2: #151515;
 }
 main {
-    background-color: #151515;
+    background-color: var(--color2);
 }
 .container {
-    width: 80%;
+    margin: 10%;
     margin: 0 auto;
-    background-color: #151515;
+    background-color: var(--color2);
 }
 .container > div {
-    padding-top: 10%;
+    padding: 5% 10% 10% 10%;
 }
 h1 {
     font-size: 4rem;
@@ -23,7 +25,7 @@ h1 {
     height: 40vh;
     max-height: 80%;
     width: 100%;
-    background: linear-gradient(180deg, hsla(30, 16%, 87%, 1) 0%, hsla(0, 0%, 8%, 1) 85%);
+    background: var(--color1);
     display: flex;
     padding-top: 105px;
     justify-content: center;
@@ -32,11 +34,14 @@ h1 {
 }
 .section-header > *{
     font-size: 4rem;
-    color:#E4DFDA;
+    color:var(--color2);
     max-width: 75%;
     min-width: 75%;
     height: 30%;
     text-align: center;
+}
+#takeyour {
+    color: var(--color2);
 }
 #fancy {
     overflow: hidden;
@@ -53,6 +58,11 @@ h1 {
     opacity: 0;
     animation: fade 18s infinite;
     text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .section-header > * {
+        font-size: 3.5rem;
+    }
 }
 @keyframes fade {
     0% {opacity: 0;}
@@ -81,7 +91,7 @@ h1 {
 }
 /* nav bar */
 .navbar {
-    background-color: #151515;
+    background-color: var(--color2);
     padding: 10px 15px;
     overflow: hidden;
     display: flex;
@@ -93,11 +103,11 @@ h1 {
     z-index: 1000;
 }
 .logo {
-    flex-grow: 1;
     flex-shrink: 1;
-    background-color: #151515;
-    font-size: 3.5rem;
+    background-color: var(--color2);
+    font-size: 3rem;
     font-weight: 800;
+    flex-wrap: nowrap;
 }
 #ln {
     color: var(--accent);
@@ -106,15 +116,16 @@ h1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
 }
 .navbar .nav-items {
     flex-grow: 3;
-    overflow: hidden;
 }
 .nav-items li {
     list-style: none;
     float: right;
-    background-color: #151515;
+    background-color: var(--color2);
     flex-wrap: nowrap;
     border-left: solid 3px var(--accent);
     padding: 10px;
@@ -124,13 +135,33 @@ h1 {
 }
 
 .nav-items {
-    background-color: #151515;
+    background-color: var(--color2);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+@media only screen and (max-width: 600px) {
+    .navbar .logo {
+        display: none;
+    }
+    .nav-items {
+        margin: 0;
+        padding: 0;
+    }
+    .nav-items li {
+        padding: 0;
+        font-size: .9rem;
+        margin: 0;
+        border:none;
+    }
 
-/* about */
+    .navbar {
+        height: 40px;
+        padding: 0;
+    }
+}
+
+/* about*/
 
 .about-container {
     display: flex;
@@ -148,7 +179,6 @@ h1 {
     width: 50%;
 }
 .about-image-wrapper {
-    max-width: 40%;
     float:right;
     flex: 1;
 }
@@ -158,7 +188,7 @@ h1 {
     height: 515px;
     border: 8px solid var(--accent);
     border-radius: 100px;
-    background-color: #151515;
+    background-color: var(--color2);
     width:fit-content;
 }
 .about-text-wrapper {
@@ -166,4 +196,24 @@ h1 {
     padding-right: 40px;
     display: flex;
     flex-direction: column;
+}
+.about-text-wrapper > div {
+    padding-top: 30px;
+}
+#download-button {
+    background-color: var(--accent);
+    padding: 15px;
+    text-decoration: none;
+}
+
+/* Education */
+
+.section-education > h1{
+    text-align: right;
+    color:var(--color1);
+    background-color: var(--color2);
+}
+.section-education {
+    height: 100vh;
+    background-color: var(--color2);
 }

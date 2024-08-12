@@ -4,9 +4,11 @@ export default function Landing() {
   return (
     <main>
       <div class="navbar">
-        <p class="logo">
-          Max <span id="ln">Barnes</span>
-        </p>
+        <div class="logo">
+          <p>
+            Max <span id="ln">Barnes</span>
+          </p>
+        </div>
         <ul class="nav-items">
           <li>About</li>
           <li>Education</li>
@@ -18,7 +20,7 @@ export default function Landing() {
 
       <div class="section-header">
         <div class="header-top">
-          <p>Take your </p>
+          <p id="takeyour">Take your </p>
           <span id="fancy">
             <p class="skill">Frontend</p>
             <p class="skill">Backend</p>
@@ -42,9 +44,17 @@ export default function Landing() {
                 could be. I've cultivated leadership experience and customer
                 service skills throughout my career. However, hobby game
                 development sparked my fascination with computer science and I
-                have been addicted ever since{" "}
+                have been addicted from that point forward.{" "}
               </p>
-              <a>Download Resume</a>
+              <div>
+                <a
+                  id="download-button"
+                  href="/MaxwellBarnesResume.pdf"
+                  download="max-barnes-resume.pdf"
+                >
+                  Download Resume
+                </a>
+              </div>
             </div>
 
             <div class="about-image-wrapper">
@@ -58,8 +68,19 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        <div>
+        <div class="section-education">
           <h1>Education</h1>
+          <p>
+            Continuing my education is a priority for me, as I am always
+            striving to enhance my skills and knowledge. After completing my
+            cohort at Tech Elevator, I am pursuing a degree in Cybersecurity at
+            Robert Morris University. In addition to formal education, I am
+            actively working toward certifications to validate and further my
+            expertise in the field.
+          </p>
+          <div>
+            <h2>In Progress</h2>
+          </div>
         </div>
         <div>
           <h1>Experience</h1>
