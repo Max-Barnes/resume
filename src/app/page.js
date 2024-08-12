@@ -12,6 +12,7 @@ export default function Landing() {
           <li>Education</li>
           <li>Experience</li>
           <li>Portfolio</li>
+          <li>Contact</li>
         </ul>
       </div>
 
@@ -33,21 +34,28 @@ export default function Landing() {
         <div class="section-about">
           <h1>About</h1>
           <div class="about-container">
-            <p>
-              I'm Max Barnes, and I am a creator at heart. Whether it's
-              conceptualizing, creative writing, or figuring out how to make
-              day-to-day life easier; I am always driven by the idea of what
-              could be. I've cultivated leadership experience and customer
-              service skills throughout my career across various industries.
-              However, my journey into creating video games as a hobby sparked
-              my fascination with coding and its potential to take my ideas and
-              build them into anything.{" "}
-            </p>
-            <a>Download Resume</a>
-            <p>Last Updated: 8/11/2024</p>
-            <a href="https://www.linkedin.com/in/maxbarnesdev/">Linkedin</a>
-            <a href="https://github.com/Max-Barnes">Github</a>
-            <a href="mailto:maxbarnes.dev@gmail.com">Email</a>
+            <div class="about-text-wrapper">
+              <p>
+                I'm Max Barnes, and I am a creator at heart. Whether it's
+                conceptualizing, creative writing, or figuring out how to make
+                day-to-day life easier; I am always driven by the idea of what
+                could be. I've cultivated leadership experience and customer
+                service skills throughout my career. However, hobby game
+                development sparked my fascination with computer science and I
+                have been addicted ever since{" "}
+              </p>
+              <a>Download Resume</a>
+            </div>
+
+            <div class="about-image-wrapper">
+              <Image
+                src="/images/headshot.jpg"
+                width={450}
+                height={577}
+                alt="max barnes"
+                class="about-image"
+              />
+            </div>
           </div>
         </div>
         <div>
@@ -58,6 +66,14 @@ export default function Landing() {
         </div>
         <div>
           <h1>Portfolio</h1>
+        </div>
+        <div>
+          <h1>Contact</h1>
+          <div>
+            <a href="https://www.linkedin.com/in/maxbarnesdev/">Linkedin</a>
+            <a href="https://github.com/Max-Barnes">Github</a>
+            <a href="mailto:maxbarnes.dev@gmail.com">Email</a>
+          </div>
         </div>
       </div>
       <div class="footer">

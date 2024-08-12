@@ -7,9 +7,15 @@ main {
     background-color: #151515;
 }
 .container {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     background-color: #151515;
+}
+.container > div {
+    padding-top: 10%;
+}
+h1 {
+    font-size: 4rem;
 }
 /* Header */
 .section-header {
@@ -37,6 +43,7 @@ main {
     text-align: center;
     display: flex;
     justify-content: center;
+    font-weight: 800;
 }
 #fancy *{
     color: var(--accent);
@@ -123,3 +130,40 @@ main {
     align-items: center;
 }
 
+/* about */
+
+.about-container {
+    display: flex;
+    min-height: 60vh;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-container p {
+    font-size: 1.5rem;
+    line-height: 200%;
+}
+.about-container > div {
+    width: 50%;
+}
+.about-image-wrapper {
+    max-width: 40%;
+    float:right;
+    flex: 1;
+}
+.about-image {
+    object-fit: cover;
+    object-position: top;
+    height: 515px;
+    border: 8px solid var(--accent);
+    border-radius: 100px;
+    background-color: #151515;
+    width:fit-content;
+}
+.about-text-wrapper {
+    flex: 2;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
