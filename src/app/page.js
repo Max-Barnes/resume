@@ -70,16 +70,62 @@ export default function Landing() {
         </div>
         <div class="section-education">
           <h1>Education</h1>
-          <p>
-            Continuing my education is a priority for me, as I am always
-            striving to enhance my skills and knowledge. After completing my
-            cohort at Tech Elevator, I am pursuing a degree in Cybersecurity at
-            Robert Morris University. In addition to formal education, I am
-            actively working toward certifications to validate and further my
-            expertise in the field.
-          </p>
-          <div>
-            <h2>In Progress</h2>
+          <div class="education-wrapper">
+            <div class="education-text-wrap">
+              <p>
+                Continuing my education is a priority for me, as I am always
+                striving to enhance my skills and knowledge. Now, after
+                completing my cohort at Tech Elevator, I am pursuing a degree in
+                Cybersecurity at Robert Morris University. In addition to formal
+                education, I am actively working toward certifications to
+                validate and further my expertise in the field.
+              </p>
+            </div>
+            <div class="certs">
+              <h2>In Progress</h2>
+              <div class="in-progress">
+                <Image
+                  src="/images/aws-sa.png"
+                  width={300}
+                  height={300}
+                  alt=" certification"
+                />
+                <Image
+                  src="/images/aws-sec.png"
+                  width={300}
+                  height={300}
+                  alt=" certification"
+                />
+                <Image
+                  src="/images/comptia-net+.png"
+                  width={300}
+                  height={300}
+                  alt=" certification"
+                />
+                <Image
+                  src="/images/compita-sec+.png"
+                  width={300}
+                  height={300}
+                  alt=" certification"
+                />
+                <Image
+                  src="/images/rmu-logo.jpg"
+                  width={300}
+                  height={300}
+                  alt=" certification"
+                />
+              </div>
+
+              <h2>Completed</h2>
+              <div class="completed">
+                <Image
+                  src="/images/tech_elevator.png"
+                  width={300}
+                  height={300}
+                  alt=" certification"
+                />
+              </div>
+            </div>
           </div>
         </div>
         <div>
