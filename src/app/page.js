@@ -12,7 +12,6 @@ export default function Landing() {
         <ul class="nav-items">
           <li>About</li>
           <li>Education</li>
-          <li>Experience</li>
           <li>Portfolio</li>
           <li>Contact</li>
         </ul>
@@ -128,11 +127,57 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        <div>
-          <h1>Experience</h1>
-        </div>
-        <div>
+        <div class="section-portfolio">
           <h1>Portfolio</h1>
+          <div class="project-box">
+            <div class="project-1">
+              <Image
+                alt="project 1"
+                src="/images/Rasp_01.png"
+                height={440}
+                width={800}
+                class="project-1-img"
+              />
+              <p class="portfolio-text-wrapper">
+                Currently working on creating a home lab of my own! This website
+                is being hosted on a Raspberry Pi 5. I wanted to do this project
+                to have more practical experience in networking and increase my
+                skillset. Beyond just hosting this site I plan on hopefully
+                someday hosting the backend for a mobile app with the same Pi 5.
+              </p>
+            </div>
+            <div class="project-2">
+              <p class="portfolio-text-wrapper-left">
+                A proof a concept behind my mobile development ideas. I want to
+                create an app where tracking your meals is not so complicated
+                and is actually user accessible. The user will only track what
+                is necessary based on their dietary requirements or fitness
+                goals.{" "}
+              </p>
+              <Image
+                alt="project 2"
+                src="/images/sugarcounter.gif"
+                height={397}
+                width={800}
+                class="project-2-img"
+              />
+            </div>
+            <div class="project-3">
+              <Image
+                alt="project 3"
+                src="/images/fitness-elevator.gif"
+                height={397}
+                width={800}
+                class="project-3-img"
+              />
+              <p class="portfolio-text-wrapper">
+                Fitness Elevator was the final capstone project created by my
+                group at Tech Elevator. The project simulated agile, having a
+                real client and working as a group to make an app from the
+                ground up based on a loose set of requirements.{" "}
+              </p>
+            </div>
+          </div>
         </div>
         <div>
           <h1>Contact</h1>

@@ -14,7 +14,7 @@ main {
     background-color: var(--color2);
 }
 .container > div {
-    padding: 5% 10% 10% 10%;
+    padding: 5% 10% 0% 10%;
 }
 h1 {
     font-size: 3.5vw;
@@ -221,7 +221,7 @@ h2 {
     background-color: var(--color2);
 }
 .section-education {
-    height: 100vh;
+    height: 80vh;
     background-color: var(--color2);
 }
 .education-wrapper {
@@ -275,4 +275,26 @@ h2 {
     overflow: hidden;
     border: 2px solid var(--color2);
     border-radius: 50px;
+}
+/* portfolio */
+.section-portfolio h2{
+    text-align: center;
+}
+.project-1, .project-2, .project-3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    line-height: 150%;
+    margin-top: 5%;
+}
+.project-1-img, .project-2-img, .project-3-img {
+    max-width: 50%;
+    height: auto;
+}
+.portfolio-text-wrapper {
+    padding-left: 5%;
+}
+.portfolio-text-wrapper-left {
+    padding-right: 5%;
 }
