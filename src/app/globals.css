@@ -405,3 +405,24 @@ h2 {
         padding-right: 0;
     }
 }
+/* contact */
+    .section-contact {
+        height: 70vh;
+    }
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        justify-content: center;
+        
+    }
+    .contact-wrapper p {
+        font-size: 2vw;
+    }
+    .link-wrapper {
+        padding-top: 5%;
+
+    }
+    .link-wrapper a {
+        padding: 5%;
+    }

@@ -181,17 +181,20 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        <div>
+        <div class="section-contact">
           <h1>Contact</h1>
-          <div>
-            <a href="https://www.linkedin.com/in/maxbarnesdev/">Linkedin</a>
-            <a href="https://github.com/Max-Barnes">Github</a>
-            <a href="mailto:maxbarnes.dev@gmail.com">Email</a>
+          <div class="contact-wrapper">
+            <p>
+              Have any questions or opportunities? Don’t hesitate to reach
+              out—I'll get back to you as soon as possible!
+            </p>
+            <div class="link-wrapper">
+              <a href="https://www.linkedin.com/in/maxbarnesdev/">Linkedin</a>
+              <a href="https://github.com/Max-Barnes">Github</a>
+              <a href="mailto:maxbarnes.dev@gmail.com">Email</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="footer">
-        <p>Footer</p>
       </div>
     </main>
   );
