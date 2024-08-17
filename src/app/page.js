@@ -24,7 +24,7 @@ export default function Landing() {
             <p class="skill">Frontend</p>
             <p class="skill">Backend</p>
             <p class="skill">Database</p>
-            <p class="skill">Cybersecurity</p>
+            <p class="skill">IT Security</p>
             <p class="skill">Network</p>
             <p class="skill">Cloud</p>
           </span>
@@ -43,7 +43,7 @@ export default function Landing() {
                 could be. I've cultivated leadership experience and customer
                 service skills throughout my career. However, hobby game
                 development sparked my fascination with computer science and I
-                have been addicted from that point forward.{" "}
+                decided to make the jump into a new career.
               </p>
               <div>
                 <a
@@ -139,20 +139,21 @@ export default function Landing() {
                 class="project-1-img"
               />
               <p class="portfolio-text-wrapper">
-                Currently working on creating a home lab of my own! This website
-                is being hosted on a Raspberry Pi 5. I wanted to do this project
-                to have more practical experience in networking and increase my
-                skillset. Beyond just hosting this site I plan on hopefully
-                someday hosting the backend for a mobile app with the same Pi 5.
+                I'm currently building my own home lab, starting with this
+                website hosted on a Raspberry Pi 5. This project is part of my
+                effort to gain hands-on experience in various areas of
+                programming and expand my skill set. In the future, I aim to use
+                the same Raspberry Pi to host the backend for a mobile app as
+                well.
               </p>
             </div>
             <div class="project-2">
               <p class="portfolio-text-wrapper-left">
-                A proof a concept behind my mobile development ideas. I want to
-                create an app where tracking your meals is not so complicated
-                and is actually user accessible. The user will only track what
-                is necessary based on their dietary requirements or fitness
-                goals.{" "}
+                A proof of concept for my mobile development ideas, this project
+                is a visual aid that simplifies tracking sugar in your meals,
+                making it more user-friendly and accessible. The app will allow
+                users to track only what is essential based on their dietary
+                requirements or fitness goals.
               </p>
               <Image
                 alt="project 2"
@@ -171,10 +172,11 @@ export default function Landing() {
                 class="project-3-img"
               />
               <p class="portfolio-text-wrapper">
-                Fitness Elevator was the final capstone project created by my
-                group at Tech Elevator. The project simulated agile, having a
-                real client and working as a group to make an app from the
-                ground up based on a loose set of requirements.{" "}
+                Fitness Elevator was the final capstone project my group
+                developed at Tech Elevator. The project simulated an agile
+                environment, where we worked together to build an app from the
+                ground up for a real client, based on a loosely defined set of
+                requirements.
               </p>
             </div>
           </div>
