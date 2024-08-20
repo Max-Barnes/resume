@@ -11,10 +11,18 @@ export default function Landing() {
           </p>
         </div>
         <ul class="nav-items">
-          <li>About</li>
-          <li>Education</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
 
@@ -32,6 +40,7 @@ export default function Landing() {
         </div>
         <p>to the Max</p>
       </div>
+      <p id="about"> </p>
       <div class="container">
         <div class="section-about">
           <h1>About</h1>
@@ -68,6 +77,7 @@ export default function Landing() {
             </div>
           </div>
         </div>
+        <p id="education"> </p>
         <div class="section-education">
           <h1>Education</h1>
           <div class="education-wrapper">
@@ -128,6 +138,7 @@ export default function Landing() {
             </div>
           </div>
         </div>
+        <p id="portfolio"> </p>
         <div class="section-portfolio">
           <h1>Portfolio</h1>
           <div class="project-box">
@@ -184,6 +195,7 @@ export default function Landing() {
             </div>
           </div>
         </div>
+        <p id="contact"> </p>
         <div class="section-contact">
           <h1>Contact</h1>
           <div class="contact-wrapper">
