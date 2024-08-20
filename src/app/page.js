@@ -1,4 +1,5 @@
 import Image from "next/image";
+import React from "react";
 
 export default function Landing() {
   return (
@@ -161,6 +162,7 @@ export default function Landing() {
                 height={397}
                 width={800}
                 class="project-2-img"
+                unoptimized
               />
             </div>
             <div class="project-3">
@@ -170,6 +172,7 @@ export default function Landing() {
                 height={397}
                 width={800}
                 class="project-3-img"
+                unoptimized
               />
               <p class="portfolio-text-wrapper">
                 Fitness Elevator was the final capstone project my group
@@ -188,10 +191,32 @@ export default function Landing() {
               Have any questions or opportunities? Don’t hesitate to reach
               out—I'll get back to you as soon as possible!
             </p>
+            <p>Email: maxbarnes.dev@gmail.com</p>
             <div class="link-wrapper">
-              <a href="https://www.linkedin.com/in/maxbarnesdev/">Linkedin</a>
-              <a href="https://github.com/Max-Barnes">Github</a>
-              <a href="mailto:maxbarnes.dev@gmail.com">Email</a>
+              <a href="https://www.linkedin.com/in/maxbarnesdev/">
+                <Image
+                  src="/images/linkedin.png"
+                  width={100}
+                  height={100}
+                  alt=" certification"
+                />
+              </a>
+              <a href="https://github.com/Max-Barnes">
+                <Image
+                  src="/images/github.png"
+                  width={100}
+                  height={100}
+                  alt=" certification"
+                />
+              </a>
+              <a href="mailto:maxbarnes.dev@gmail.com">
+                <Image
+                  src="/images/email.png"
+                  width={100}
+                  height={100}
+                  alt=" certification"
+                />
+              </a>
             </div>
           </div>
         </div>
