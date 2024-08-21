@@ -47,13 +47,13 @@ export default function Landing() {
           <div class="about-container">
             <div class="about-text-wrapper">
               <p>
-                I'm Max Barnes, and I am a creator at heart. Whether it's
-                conceptualizing, creative writing, or figuring out how to make
-                day-to-day life easier; I am always driven by the idea of what
-                could be. I've cultivated leadership experience and customer
-                service skills throughout my career. However, hobby game
-                development sparked my fascination with computer science and I
-                decided to make the jump into a new career.
+                I&apos;m Max Barnes, and I am a creator at heart. Whether
+                it&apos;s conceptualizing, creative writing, or figuring out how
+                to make day-to-day life easier; I am always driven by the idea
+                of what could be. I&apos;ve cultivated leadership experience and
+                customer service skills throughout my career. However, hobby
+                game development sparked my fascination with computer science,
+                and I decided to make the jump into a new career.
               </p>
               <div>
                 <a
@@ -151,7 +151,7 @@ export default function Landing() {
                 class="project-1-img"
               />
               <p class="portfolio-text-wrapper">
-                I'm currently building my own home lab, starting with this
+                I am currently building my own home lab, starting with this
                 website hosted on a Raspberry Pi 5. This project is part of my
                 effort to gain hands-on experience in various areas of
                 programming and expand my skill set. In the future, I aim to use
@@ -200,8 +200,8 @@ export default function Landing() {
           <h1>Contact</h1>
           <div class="contact-wrapper">
             <p>
-              Have any questions or opportunities? Don’t hesitate to reach
-              out—I'll get back to you as soon as possible!
+              Have any questions or opportunities? Don&apos;t hesitate to reach
+              out—I&apos;ll get back to you as soon as possible!
             </p>
             <p>Email: maxbarnes.dev@gmail.com</p>
             <div class="link-wrapper">
